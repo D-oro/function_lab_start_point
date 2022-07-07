@@ -71,19 +71,20 @@ class TestPythonFunctionPractice(unittest.TestCase):
       tenth_month_string = number_to_short_month_name( 10 )
       self.assertEqual( "Oct", tenth_month_string )
 
-  #Further
+#   Further
 
-  #Given the length of a side of a cube calculate the volume
+#   Given the length of a side of a cube calculate the volume
 
   def test_volume_of_cube(self):
-    volume_of_cube = 1 * 1 * 1
+    volume_of_cube = pow(1, 3)
     self.assertEqual(volume_of_cube, 1)
+
 
   #Given a String, return the String reversed
   @unittest.skip("delete this line to run the test")
   def test_reverse_string(self):
-    #add test code here
-    pass
+    reverse_string = reversed("reverse this string")
+    self.assertEqual(reverse_string, )
 
   #Given a value in farenheit, convert this into celsius.
   @unittest.skip("delete this line to run the test")

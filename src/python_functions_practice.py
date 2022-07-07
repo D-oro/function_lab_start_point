@@ -37,9 +37,3 @@ def number_to_short_month_name (number):
         return "Apr"
     if number == 10 :
         return "Oct"
-
-
-# def number_to_short_month_name ():
-#     number_to_short_month_name = "January" 
-#     truncated_text = number_to_short_month_name[0,3]
-#     return number_to_short_month_name
